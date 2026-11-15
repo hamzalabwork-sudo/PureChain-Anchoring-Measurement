@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Submission policies at a mean of 30 records/s under the IBM AML batch-posting trace (E2): 95th-percentile arrival-to-inclusion and arrival-to-finality latency (s; finality 8 confirmations, QBFT on inclusion) and gas per record. The utilisation sweep and P50/P99 are in Supplementary Table~S2.}
+\label{tab:e13main}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Policy & \makecell{Clique\\Incl.} & \makecell{Clique\\Final} & \makecell{Clique\\Gas} & \makecell{Besu\\Incl.} & \makecell{Besu\\Final} & \makecell{Besu\\Gas} & \makecell{PureChain\\client Incl.} & \makecell{PureChain\\client Final} & \makecell{PureChain\\client Gas} \\
+\midrule
+Per record & 2.01 & 10.00 & 155,752 & 27.57 & 27.57 & 155,759 & 2.02 & 10.02 & 155,758 \\
+Fixed $b{=}50$, $w{=}0.1$\,s & 2.07 & 10.07 & 62,114 & 1.30 & 1.30 & 62,114 & -- & -- & -- \\
+Fixed $b{=}50$, $w{=}0.25$\,s & 2.16 & 10.16 & 43,575 & 1.38 & 1.38 & 43,575 & 2.18 & 10.16 & 43,575 \\
+Fixed $b{=}50$, $w{=}0.5$\,s & 2.30 & 10.29 & 35,045 & 1.59 & 1.59 & 35,046 & -- & -- & -- \\
+Fixed $b{=}50$, $w{=}1$\,s & 2.70 & 10.70 & 30,663 & 1.89 & 1.89 & 30,669 & 2.62 & 10.60 & 30,669 \\
+Interval, 1\,s & 2.44 & 10.44 & 30,544 & 1.92 & 1.92 & 30,544 & 2.36 & 10.36 & 30,544 \\
+Drain per block & 2.94 & 10.94 & 30,652 & 1.98 & 1.98 & 30,652 & 2.93 & 10.93 & 30,593 \\
+Controller, $b_{\max}{=}1$ & 238.86 & 246.88 & 155,753 & 79.38 & 79.38 & 155,752 & 237.43 & 245.44 & 155,752 \\
+Controller & 2.63 & 10.64 & 64,679 & 1.43 & 1.43 & 80,300 & 2.64 & 10.63 & 64,879 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table*}

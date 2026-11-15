@@ -1,0 +1,37 @@
+[
+ {
+  "target_idle_s":0.0,
+  "idle_at_send_s":0.0000002384,
+  "commit_latency_s":1.7928392,
+  "conf7_latency_s":8.6856642,
+  "n":15
+ },
+ {
+  "target_idle_s":10.0,
+  "idle_at_send_s":10.1861522198,
+  "commit_latency_s":1.0776406,
+  "conf7_latency_s":7.5796595,
+  "n":15
+ },
+ {
+  "target_idle_s":30.0,
+  "idle_at_send_s":30.1395468712,
+  "commit_latency_s":1.0868052,
+  "conf7_latency_s":7.4780993,
+  "n":15
+ },
+ {
+  "target_idle_s":60.0,
+  "idle_at_send_s":60.1771957874,
+  "commit_latency_s":1.3704198,
+  "conf7_latency_s":7.9664013,
+  "n":15
+ },
+ {
+  "target_idle_s":120.0,
+  "idle_at_send_s":120.1104400158,
+  "commit_latency_s":1.1955293,
+  "conf7_latency_s":7.5518829,
+  "n":15
+ }
+]

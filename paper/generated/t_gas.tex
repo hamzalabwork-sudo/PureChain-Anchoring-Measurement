@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Gas per record by batch size $b$ (Clique emulation, B7, 200 records/s): a registry that does not check identifiers inside a batch; the registry storing every batched identifier once, which rejects re-commitment; and the registry logging the identifiers in an event, with which the auditor detects re-commitment from the complete log instead.}
+\label{tab:gas}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{rrrr}
+\toprule
+$b$ & Unchecked IDs & Stored IDs (prevent) & Logged IDs (detect) \\
+\midrule
+1 & 153,377 & 155,770 & -- \\
+10 & 15,931 & 41,223 & 16,947 \\
+25 & 6,372 & 31,610 & 7,242 \\
+50 & 3,186 & 28,412 & 4,008 \\
+100 & 1,593 & 26,813 & 2,390 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table}

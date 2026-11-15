@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Privileged-insider tampering (E7): share of attacks protected (\%), how (P: write prevented; D: detected by the audit; U: undetected) and cases. S4 re-commits an already recorded identifier inside a new batch (run only against the registry that stores batched identifiers). PostgreSQL + digest: the same database attacks audited against a hash-chain digest of the table published before the attack. Every protected share of 100\% has a Clopper--Pearson 95\% lower bound of at least 83\%.}
+\label{tab:insider}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lccccccc}
+\toprule
+Attack & \makecell{PureChain\\(live)} & \makecell{PureChain\\client (local)} & \makecell{Clique\\emulation} & \makecell{Besu\\QBFT} & PostgreSQL & \makecell{Ethereum\\PoS} & \makecell{PostgreSQL\\+ digest} \\
+\midrule
+S1 alter evidence & 100 D (720) & 100 D (100) & 100 D (800) & 100 D (800) & 100 D (800) & 100 D (200) & 100 D (100) \\
+S2 + rewrite commitment & 100 P (720) & 100 P (100) & 100 P (800) & 100 P (800) & 0 U (800) & 100 P (200) & 100 D (100) \\
+S3 fabricate + backdate & 100 D (720) & 100 D (100) & 100 D (800) & 100 D (800) & 0 U (800) & 100 D (200) & 100 D (100) \\
+S4a re-commit recorded ID & 100 P (20) & 100 P (100) & 100 P (100) & 100 P (100) & 100 P (100) & -- & 100 P (100) \\
+S4b re-commit batched ID & 100 P (20) & 100 P (100) & 100 P (100) & 100 P (100) & 100 P (100) & -- & 100 P (100) \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table*}

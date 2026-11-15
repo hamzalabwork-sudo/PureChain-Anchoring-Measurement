@@ -1,0 +1,38 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Tamper detection against on-chain commitments (E6). Malicious rows report the detection rate (TDR); benign rows report the false-positive rate (FPR); rejected rows report the share of non-canonical inputs refused before hashing. Exact Clopper--Pearson 95\% intervals. Pooled over PureChain (live): 9 runs; Clique emulation: 13 runs.}
+\label{tab:tamper}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{llrrrc}
+\toprule
+Kind & Modification & Cases & Flagged & Rate (\%) & 95\% CI \\
+\midrule
+benign & ascii\_escapes & 1,600 & 0 & 0.00 & [0.000, 0.230] \\
+benign & compact & 1,600 & 0 & 0.00 & [0.000, 0.230] \\
+benign & nested\_reorder & 1,600 & 0 & 0.00 & [0.000, 0.230] \\
+benign & reserialize\_reorder & 19,600 & 0 & 0.00 & [0.000, 0.019] \\
+benign & unicode\_nfd & 19,600 & 0 & 0.00 & [0.000, 0.019] \\
+control & none & 19,600 & 0 & 0.00 & [0.000, 0.019] \\
+malicious & amount & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & authorization & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & beneficiary & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & date & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & document\_deleted & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & invoice\_number & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & ledger\_entry & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & record\_substitution & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & single\_bit\_metadata & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & supporting\_document & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+malicious & vendor & 19,600 & 19,600 & 100.00 & [99.981, 100.000] \\
+rejected & duplicate\_key & 1,600 & 1,600 & 100.00 & [99.770, 100.000] \\
+rejected & float\_amount & 1,600 & 1,600 & 100.00 & [99.770, 100.000] \\
+rejected & lone\_surrogate & 1,600 & 1,600 & 100.00 & [99.770, 100.000] \\
+rejected & nan\_literal & 1,600 & 1,600 & 100.00 & [99.770, 100.000] \\
+rejected & unsafe\_integer & 1,600 & 1,600 & 100.00 & [99.770, 100.000] \\
+malicious & ALL (TDR) & 215,600 & 215,600 & 100.00 & [99.998, 100.000] \\
+benign & ALL (FPR) & 44,000 & 0 & 0.00 & [0.000, 0.008] \\
+rejected & ALL (rejected) & 8,000 & 8,000 & 100.00 & [99.954, 100.000] \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table*}

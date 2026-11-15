@@ -1,0 +1,158 @@
+2026-11-08 14:54:58 == delay 200 ms: fresh network, trials [0]
+2026-11-08 14:56:19 [E16_purechain_local_momtsim_n1500_L4_d10240_r30_s1_t0_nd200] setup
+2026-11-08 14:56:28 [E16_purechain_local_momtsim_n1500_L4_d10240_r30_s1_t0_nd200] gas estimate recordEvidence = 175409
+2026-11-08 14:56:31 [E16_purechain_local_momtsim_n1500_L4_d10240_r30_s1_t0_nd200] prepared 1500 records in 1500 submissions in 5.5s
+2026-11-08 14:57:36 [E16_purechain_local_momtsim_n1500_L4_d10240_r30_s1_t0_nd200] submission phase 52.0s, busy 64.4s
+2026-11-08 14:57:37 [E16_purechain_local_momtsim_n1500_L4_d10240_r30_s1_t0_nd200] committed 1500/1500 | 27.9 rec/s | e2e median 1.750s p95 2.597s | final median 9.730s | verify 1.0
+2026-11-08 14:57:58 [E16_purechain_local_momtsim_n1500_L4_d10240_r30_s1_t0_nd200] committed 1500/1500, reorged 4, max depth 1, rtt {'1-2': 403.095, '2-3': 408.401, '3-4': 385.282, '4-1': 421.407, '1-gateway': 0.118}, heads [105, 105, 105, 105]
+2026-11-08 14:58:23 == delay 0 ms: fresh network, trials [0, 1, 2, 3]
+2026-11-08 14:59:36 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd0] setup
+2026-11-08 15:00:01 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd0] gas estimate recordEvidence = 175409
+2026-11-08 15:00:17 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd0] prepared 9000 records in 9000 submissions in 35.8s
+2026-11-08 15:05:28 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd0] submission phase 299.2s, busy 310.4s
+2026-11-08 15:05:29 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd0] committed 9000/9000 | 29.9 rec/s | e2e median 1.607s p95 2.064s | final median 9.607s | verify 1.0
+2026-11-08 15:05:50 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd0] committed 9000/9000, reorged 1, max depth 1, rtt {'1-2': 1.262, '2-3': 0.109, '3-4': 0.078, '4-1': 0.11, '1-gateway': 0.112}, heads [359, 359, 359, 359]
+2026-11-08 15:05:58 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd0] setup
+2026-11-08 15:06:13 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd0] gas estimate recordEvidence = 156971
+2026-11-08 15:06:30 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd0] prepared 9000 records in 9000 submissions in 31.1s
+2026-11-08 15:11:41 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd0] submission phase 299.9s, busy 310.6s
+2026-11-08 15:11:43 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd0] committed 9000/9000 | 29.9 rec/s | e2e median 1.626s p95 2.131s | final median 9.628s | verify 1.0
+2026-11-08 15:12:04 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd0] committed 9000/9000, reorged 3, max depth 1, rtt {'1-2': 0.073, '2-3': 0.076, '3-4': 0.114, '4-1': 0.096, '1-gateway': 0.073}, heads [679, 679, 679, 679]
+2026-11-08 15:12:11 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd0] setup
+2026-11-08 15:12:30 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd0] gas estimate recordEvidence = 156951
+2026-11-08 15:12:46 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd0] prepared 9000 records in 9000 submissions in 33.4s
+2026-11-08 15:17:58 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd0] submission phase 300.1s, busy 311.3s
+2026-11-08 15:17:59 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd0] committed 9000/9000 | 29.8 rec/s | e2e median 1.609s p95 2.103s | final median 9.604s | verify 1.0
+2026-11-08 15:18:20 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd0] committed 9000/9000, reorged 1, max depth 1, rtt {'1-2': 0.085, '2-3': 0.091, '3-4': 0.069, '4-1': 0.068, '1-gateway': 0.064}, heads [999, 999, 999, 999]
+2026-11-08 15:18:27 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd0] setup
+2026-11-08 15:18:44 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd0] gas estimate recordEvidence = 156959
+2026-11-08 15:18:59 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd0] prepared 9000 records in 9000 submissions in 30.2s
+2026-11-08 15:24:15 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd0] submission phase 305.0s, busy 315.8s
+2026-11-08 15:24:18 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd0] committed 9000/9000 | 29.4 rec/s | e2e median 1.593s p95 2.054s | final median 9.590s | verify 1.0
+2026-11-08 15:24:39 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd0] committed 9000/9000, reorged 2, max depth 1, rtt {'1-2': 0.072, '2-3': 0.073, '3-4': 0.069, '4-1': 0.088, '1-gateway': 0.057}, heads [1324, 1324, 1324, 1324]
+2026-11-08 15:24:39 == delay 50 ms: fresh network, trials [0, 1, 2, 3]
+2026-11-08 15:25:52 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd50] setup
+2026-11-08 15:26:16 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd50] gas estimate recordEvidence = 175377
+2026-11-08 15:26:32 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd50] prepared 9000 records in 9000 submissions in 31.0s
+2026-11-08 15:31:42 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd50] submission phase 299.2s, busy 309.6s
+2026-11-08 15:31:43 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd50] committed 9000/9000 | 30.0 rec/s | e2e median 1.629s p95 2.233s | final median 9.630s | verify 1.0
+2026-11-08 15:32:04 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd50] committed 9000/9000, reorged 11, max depth 2, rtt {'1-2': 106.306, '2-3': 100.936, '3-4': 95.72, '4-1': 104.485, '1-gateway': 0.067}, heads [363, 363, 363, 363]
+2026-11-08 15:32:12 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd50] setup
+2026-11-08 15:32:42 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd50] gas estimate recordEvidence = 156951
+2026-11-08 15:32:57 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd50] prepared 9000 records in 9000 submissions in 43.5s
+2026-11-08 15:38:08 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd50] submission phase 300.0s, busy 310.7s
+2026-11-08 15:38:09 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd50] committed 9000/9000 | 29.9 rec/s | e2e median 1.610s p95 2.164s | final median 9.600s | verify 1.0
+2026-11-08 15:38:30 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd50] committed 9000/9000, reorged 8, max depth 1, rtt {'1-2': 100.425, '2-3': 97.101, '3-4': 98.033, '4-1': 95.998, '1-gateway': 0.06}, heads [682, 682, 682, 682]
+2026-11-08 15:38:39 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd50] setup
+2026-11-08 15:39:13 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd50] gas estimate recordEvidence = 156971
+2026-11-08 15:39:28 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd50] prepared 9000 records in 9000 submissions in 47.8s
+2026-11-08 15:44:40 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd50] submission phase 300.1s, busy 311.4s
+2026-11-08 15:44:41 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd50] committed 9000/9000 | 29.8 rec/s | e2e median 1.597s p95 2.105s | final median 9.584s | verify 1.0
+2026-11-08 15:45:01 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd50] committed 9000/9000, reorged 5, max depth 1, rtt {'1-2': 101.477, '2-3': 97.974, '3-4': 99.251, '4-1': 99.12, '1-gateway': 0.113}, heads [1003, 1003, 1003, 1003]
+2026-11-08 15:45:08 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd50] setup
+2026-11-08 15:45:25 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd50] gas estimate recordEvidence = 156971
+2026-11-08 15:45:39 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd50] prepared 9000 records in 9000 submissions in 29.7s
+2026-11-08 15:50:55 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd50] submission phase 305.0s, busy 315.3s
+2026-11-08 15:50:56 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd50] committed 9000/9000 | 29.4 rec/s | e2e median 1.577s p95 2.102s | final median 9.574s | verify 1.0
+2026-11-08 15:51:17 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd50] committed 9000/9000, reorged 4, max depth 1, rtt {'1-2': 104.509, '2-3': 100.221, '3-4': 94.874, '4-1': 101.051, '1-gateway': 0.06}, heads [1327, 1327, 1327, 1327]
+2026-11-08 15:51:17 == delay 100 ms: fresh network, trials [0, 1, 2, 3]
+2026-11-08 15:52:39 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd100] setup
+2026-11-08 15:53:13 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd100] gas estimate recordEvidence = 175409
+2026-11-08 15:53:30 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd100] prepared 9000 records in 9000 submissions in 42.9s
+2026-11-08 15:58:41 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd100] submission phase 299.2s, busy 310.4s
+2026-11-08 15:58:45 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd100] committed 9000/9000 | 29.9 rec/s | e2e median 1.672s p95 2.520s | final median 9.676s | verify 1.0
+2026-11-08 15:59:06 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd100] committed 9000/9000, reorged 10, max depth 1, rtt {'1-2': 215.985, '2-3': 196.973, '3-4': 199.128, '4-1': 191.075, '1-gateway': 0.068}, heads [363, 363, 363, 363]
+2026-11-08 15:59:16 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd100] setup
+2026-11-08 15:59:50 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd100] gas estimate recordEvidence = 156951
+2026-11-08 16:00:05 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd100] prepared 9000 records in 9000 submissions in 47.8s
+2026-11-08 16:05:16 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd100] submission phase 299.8s, busy 310.5s
+2026-11-08 16:05:17 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd100] committed 9000/9000 | 29.9 rec/s | e2e median 1.604s p95 2.181s | final median 9.603s | verify 1.0
+2026-11-08 16:05:38 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd100] committed 9000/9000, reorged 11, max depth 1, rtt {'1-2': 187.673, '2-3': 200.915, '3-4': 203.805, '4-1': 200.543, '1-gateway': 0.06}, heads [683, 683, 683, 683]
+2026-11-08 16:05:46 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd100] setup
+2026-11-08 16:06:15 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd100] gas estimate recordEvidence = 156947
+2026-11-08 16:06:27 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd100] prepared 9000 records in 9000 submissions in 40.4s
+2026-11-08 16:11:39 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd100] submission phase 300.1s, busy 311.6s
+2026-11-08 16:11:40 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd100] committed 9000/9000 | 29.8 rec/s | e2e median 1.606s p95 2.171s | final median 9.598s | verify 1.0
+2026-11-08 16:12:01 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd100] committed 9000/9000, reorged 12, max depth 1, rtt {'1-2': 196.491, '2-3': 196.674, '3-4': 199.383, '4-1': 197.239, '1-gateway': 0.062}, heads [1003, 1003, 1003, 1003]
+2026-11-08 16:12:09 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd100] setup
+2026-11-08 16:12:42 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd100] gas estimate recordEvidence = 156939
+2026-11-08 16:12:55 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd100] prepared 9000 records in 9000 submissions in 45.1s
+2026-11-08 16:18:12 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd100] submission phase 305.1s, busy 315.9s
+2026-11-08 16:18:15 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd100] committed 9000/9000 | 29.4 rec/s | e2e median 1.608s p95 2.187s | final median 9.598s | verify 1.0
+2026-11-08 16:18:36 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd100] committed 9000/9000, reorged 12, max depth 1, rtt {'1-2': 203.099, '2-3': 191.391, '3-4': 197.082, '4-1': 202.406, '1-gateway': 0.05}, heads [1327, 1327, 1327, 1327]
+2026-11-08 16:18:36 == delay 200 ms: fresh network, trials [0, 1, 2, 3]
+2026-11-08 16:19:58 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd200] setup
+2026-11-08 16:20:39 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd200] gas estimate recordEvidence = 175377
+2026-11-08 16:21:05 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd200] prepared 9000 records in 9000 submissions in 61.7s
+2026-11-08 16:26:16 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd200] submission phase 299.2s, busy 310.8s
+2026-11-08 16:26:19 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd200] committed 9000/9000 | 29.9 rec/s | e2e median 1.771s p95 2.957s | final median 9.777s | verify 1.0
+2026-11-08 16:26:40 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd200] committed 9000/9000, reorged 38, max depth 2, rtt {'1-2': 389.465, '2-3': 418.564, '3-4': 398.405, '4-1': 393.542, '1-gateway': 0.08}, heads [358, 358, 358, 358]
+2026-11-08 16:26:49 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd200] setup
+2026-11-08 16:27:20 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd200] gas estimate recordEvidence = 156971
+2026-11-08 16:27:36 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd200] prepared 9000 records in 9000 submissions in 45.2s
+2026-11-08 16:35:55 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd200] submission phase 476.1s, busy 499.3s
+2026-11-08 16:35:58 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd200] committed 9000/9000 | 18.3 rec/s | e2e median 217.743s p95 319.218s | final median 228.162s | verify 1.0
+2026-11-08 16:36:19 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd200] committed 9000/9000, reorged 20, max depth 1, rtt {'1-2': 400.579, '2-3': 408.541, '3-4': 389.858, '4-1': 387.147, '1-gateway': 0.067}, heads [815, 815, 815, 815]
+2026-11-08 16:36:29 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd200] setup
+2026-11-08 16:37:02 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd200] gas estimate recordEvidence = 156915
+2026-11-08 16:37:13 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd200] prepared 9000 records in 9000 submissions in 42.4s
+2026-11-08 16:42:26 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd200] submission phase 301.0s, busy 312.5s
+2026-11-08 16:42:30 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd200] committed 9000/9000 | 29.7 rec/s | e2e median 2.125s p95 5.939s | final median 10.301s | verify 1.0
+2026-11-08 16:42:52 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd200] committed 9000/9000, reorged 26, max depth 2, rtt {'1-2': 412.86, '2-3': 404.809, '3-4': 409.383, '4-1': 417.128, '1-gateway': 0.066}, heads [1117, 1117, 1117, 1117]
+2026-11-08 16:43:05 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd200] setup
+2026-11-08 16:43:45 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd200] gas estimate recordEvidence = 156939
+2026-11-08 16:44:10 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd200] prepared 9000 records in 9000 submissions in 62.1s
+2026-11-08 16:50:19 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd200] submission phase 318.3s, busy 368.5s
+2026-11-08 16:50:22 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd200] committed 9000/9000 | 28.2 rec/s | e2e median 11.034s p95 84.249s | final median 19.683s | verify 1.0
+2026-11-08 16:50:43 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd200] committed 9000/9000, reorged 31, max depth 3, rtt {'1-2': 427.711, '2-3': 394.238, '3-4': 403.575, '4-1': 409.62, '1-gateway': 0.058}, heads [1424, 1424, 1424, 1424]
+2026-11-08 16:50:43 == delay 400 ms: fresh network, trials [0, 1, 2, 3]
+2026-11-08 16:52:03 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd400] setup
+2026-11-08 16:52:49 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd400] gas estimate recordEvidence = 175409
+2026-11-08 16:53:05 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd400] prepared 9000 records in 9000 submissions in 47.4s
+2026-11-08 17:09:37 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd400] submission phase 299.2s, busy 991.6s
+2026-11-08 17:09:45 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd400] committed 5262/9000 | 30.0 rec/s | e2e median 2.273s p95 5.524s | final median 11.474s | verify 1.0
+2026-11-08 17:10:10 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd400] committed 5262/9000, reorged 42, max depth 4, rtt {'1-2': 795.762, '2-3': 779.113, '3-4': 814.892, '4-1': 854.508, '1-gateway': 0.157}, heads [188, 188, 188, 187]
+2026-11-08 17:10:10 validators disagree or nothing committed: recreating the network for the next trial
+2026-11-08 17:13:11 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd400] setup
+2026-11-08 17:13:57 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd400] gas estimate recordEvidence = 175389
+2026-11-08 17:14:29 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd400] prepared 9000 records in 9000 submissions in 68.4s
+2026-11-08 17:19:43 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd400] submission phase 299.8s, busy 313.4s
+2026-11-08 17:19:51 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd400] committed 9000/9000 | 29.6 rec/s | e2e median 2.729s p95 6.618s | final median 13.266s | verify 1.0
+2026-11-08 17:20:12 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd400] committed 9000/9000, reorged 86, max depth 3, rtt {'1-2': 826.462, '2-3': 813.854, '3-4': 796.446, '4-1': 779.56, '1-gateway': 0.209}, heads [292, 292, 292, 292]
+2026-11-08 17:20:23 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd400] setup
+2026-11-08 17:20:56 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd400] gas estimate recordEvidence = 156959
+2026-11-08 17:21:11 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd400] prepared 9000 records in 9000 submissions in 45.8s
+2026-11-08 17:27:30 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd400] submission phase 356.0s, busy 378.2s
+2026-11-08 17:27:33 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd400] committed 9000/9000 | 24.5 rec/s | e2e median 2.371s p95 69.860s | final median 13.403s | verify 1.0
+2026-11-08 17:27:54 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd400] committed 9000/9000, reorged 55, max depth 3, rtt {'1-2': 774.774, '2-3': 787.291, '3-4': 813.956, '4-1': 752.884, '1-gateway': 0.075}, heads [575, 575, 575, 575]
+2026-11-08 17:28:06 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd400] setup
+2026-11-08 17:28:38 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd400] gas estimate recordEvidence = 156959
+2026-11-08 17:28:53 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd400] prepared 9000 records in 9000 submissions in 44.8s
+2026-11-08 17:34:40 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd400] submission phase 305.0s, busy 316.8s
+2026-11-08 17:34:41 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd400] committed 9000/9000 | 29.2 rec/s | e2e median 27.862s p95 108.228s | final median 40.218s | verify 1.0
+2026-11-08 17:35:02 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd400] committed 9000/9000, reorged 32, max depth 2, rtt {'1-2': 791.079, '2-3': 822.751, '3-4': 838.593, '4-1': 818.261, '1-gateway': 0.079}, heads [811, 811, 811, 811]
+2026-11-08 17:35:02 == delay 800 ms: fresh network, trials [0, 1, 2, 3]
+2026-11-08 17:36:51 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd800] setup
+2026-11-08 17:37:41 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd800] gas estimate recordEvidence = 175377
+2026-11-08 17:37:52 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd800] prepared 9000 records in 9000 submissions in 48.0s
+2026-11-08 17:43:43 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd800] submission phase 299.2s, busy 321.1s
+2026-11-08 17:43:47 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd800] committed 9000/9000 | 29.6 rec/s | e2e median 6.163s p95 55.534s | final median 24.742s | verify 1.0
+2026-11-08 17:44:08 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t0_nd800] committed 9000/9000, reorged 34, max depth 3, rtt {'1-2': 1621.33, '2-3': 1580.385, '3-4': 1636.799, '4-1': 1660.18, '1-gateway': 0.175}, heads [177, 177, 177, 177]
+2026-11-08 17:44:25 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd800] setup
+2026-11-08 17:44:59 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd800] gas estimate recordEvidence = 156971
+2026-11-08 17:45:18 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd800] prepared 9000 records in 9000 submissions in 51.1s
+2026-11-08 17:50:36 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd800] submission phase 299.8s, busy 317.4s
+2026-11-08 17:50:39 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd800] committed 9000/9000 | 29.8 rec/s | e2e median 5.364s p95 26.578s | final median 25.954s | verify 1.0
+2026-11-08 17:51:01 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t1_nd800] committed 9000/9000, reorged 32, max depth 3, rtt {'1-2': 1628.464, '2-3': 1536.891, '3-4': 1666.87, '4-1': 1660.735, '1-gateway': 0.065}, heads [316, 316, 316, 316]
+2026-11-08 17:51:15 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd800] setup
+2026-11-08 17:51:54 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd800] gas estimate recordEvidence = 156927
+2026-11-08 17:52:06 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd800] prepared 9000 records in 9000 submissions in 48.9s
+2026-11-08 17:58:37 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd800] submission phase 300.2s, busy 390.6s
+2026-11-08 17:58:39 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd800] committed 9000/9000 | 28.8 rec/s | e2e median 4.983s p95 12.487s | final median 21.605s | verify 1.0
+2026-11-08 17:59:00 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t2_nd800] committed 9000/9000, reorged 59, max depth 3, rtt {'1-2': 1561.469, '2-3': 1623.535, '3-4': 1490.219, '4-1': 1597.511, '1-gateway': 0.113}, heads [474, 474, 474, 474]
+2026-11-08 17:59:13 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd800] setup
+2026-11-08 17:59:54 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd800] gas estimate recordEvidence = 156927
+2026-11-08 18:00:17 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd800] prepared 9000 records in 9000 submissions in 62.3s
+2026-11-08 18:06:24 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd800] submission phase 305.0s, busy 366.8s
+2026-11-08 18:06:26 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd800] committed 9000/9000 | 25.5 rec/s | e2e median 5.175s p95 50.872s | final median 25.101s | verify 1.0
+2026-11-08 18:06:47 [E16_purechain_local_momtsim_n9000_L4_d10240_r30_s1_t3_nd800] committed 9000/9000, reorged 36, max depth 5, rtt {'1-2': 1610.867, '2-3': 1593.685, '3-4': 1561.392, '4-1': 1619.27, '1-gateway': 0.054}, heads [613, 613, 613, 613]

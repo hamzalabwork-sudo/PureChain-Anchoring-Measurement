@@ -1,0 +1,6 @@
+backend,trials,blocks,reorged_blocks,orphan_blocks,orphan_txs,max_reorg_depth,out_of_turn_orphans,committed,txs_first_seen_in_orphan,reorg_rate_per_1000_blocks
+besu,308,34934.0,0.0,0.0,0.0,0.0,0.0,1818156,0,0.0
+ethpos,17,331.0,0.0,0.0,0.0,0.0,0.0,44800,0,0.0
+poa2_local,383,45934.0,161.0,171.0,7602.0,6.0,116.0,1957316,7561,3.5050289545870164
+purechain,216,14292.0,838.0,870.0,85038.0,7.0,837.0,662706,85708,58.634200951581306
+purechain_local,42,7743.0,571.0,615.0,41048.0,5.0,603.0,233565,35918,73.744026862973

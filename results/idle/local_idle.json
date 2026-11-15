@@ -1,0 +1,26 @@
+{
+ "besu": {
+  "client": "besu/v24.12.2/linux-x86_64/openjdk-java-21",
+  "window_s": 600.0096964999684,
+  "blocks_per_h": 3606.010016694491,
+  "empty_share": 1.0,
+  "bytes_per_h": 3032654.424040067,
+  "empty_block_bytes_mean": 841.0,
+  "infra_cpu_s": 98.8959908854316,
+  "infra_energy_j": 535.6866172960878,
+  "idle_energy_wh_per_day": 21.427118411755174,
+  "infra_blk_write_bytes": 11700000.0
+ },
+ "poa2_local": {
+  "client": "Geth/v1.13.15-stable-c5ba367e/linux-amd64/go1.21.9",
+  "window_s": 600.0080135999597,
+  "blocks_per_h": 3606.010016694491,
+  "empty_share": 1.0,
+  "bytes_per_h": 2194209.0150250415,
+  "empty_block_bytes_mean": 608.4866666666667,
+  "infra_cpu_s": 25.024197389552132,
+  "infra_energy_j": 135.54773586007406,
+  "idle_energy_wh_per_day": 5.421837020348082,
+  "infra_blk_write_bytes": 0.0
+ }
+}

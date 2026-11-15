@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Network-delay emulation (E9): local PureChain network (released client 1.0.1 with Smart Auto-Mining v2, four signers) under one-way network delay $d$ between validators (tc netem, normal jitter of 10\% of $d$; traffic between client and RPC node not delayed), sustained load of 30 records/s, one transaction per record. RTT: measured validator-to-validator round trip. Stalled: trials in which the chain stopped before every record was included (validators held different heads). Rec/s min: lowest achieved throughput of a trial; below the offered load a backlog builds and inclusion latency grows. Replaced: share of canonical heights whose first-seen block was replaced; events are runs of consecutive replaced heights. Out-of-turn: share of canonical blocks, and of replaced blocks, sealed out of turn (difficulty 1). $k_{\mathrm{obs}}$: confirmations above every observed reorganisation. Latencies from arrival, seconds: inclusion (first observation of the including block) and finality at $k=8$ confirmations, median and P95.}
+\label{tab:netdelay}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{rrrrrrrrrrrrrrrrr}
+\toprule
+$d$ (ms) & RTT (ms) & Trials & Stalled & Rec/s min & Heights & Replaced (\%) & Events & Max depth & Mean depth & Out-of-turn (\%) & Of replaced (\%) & $k_{\mathrm{obs}}$ & Incl. P50 & Incl. P95 & Final P50 & Final P95 \\
+\midrule
+0 & 0 & 4 & 0 & 29.4 & 1,245 & 0.6 & 7 & 1 & 1.00 & 0.6 & 100 & 2 & 1.61 & 2.09 & 9.61 & 10.09 \\
+50 & 100 & 4 & 0 & 29.4 & 1,243 & 2.3 & 27 & 2 & 1.04 & 0.9 & 100 & 3 & 1.60 & 2.15 & 9.60 & 10.14 \\
+100 & 199 & 4 & 0 & 29.4 & 1,245 & 3.6 & 45 & 1 & 1.00 & 1.5 & 100 & 2 & 1.62 & 2.23 & 9.62 & 10.25 \\
+200 & 404 & 4 & 0 & 18.3 & 1,341 & 8.6 & 104 & 3 & 1.11 & 6.8 & 99 & 4 & 2.36 & 288.12 & 10.56 & 300.02 \\
+400 & 804 & 4 & 1 & 24.5 & 887 & 24.2 & 155 & 4 & 1.39 & 19.3 & 98 & 5 & 2.94 & 88.85 & 13.98 & 102.19 \\
+800 & 1,603 & 4 & 0 & 25.5 & 568 & 28.3 & 103 & 5 & 1.56 & 32.0 & 96 & 6 & 5.33 & 46.10 & 24.25 & 71.03 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table*}

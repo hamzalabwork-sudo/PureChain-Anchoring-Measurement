@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Emulation fidelity: live PureChain trials against identically configured Clique-emulation twins (same workload window, seed, evidence and offered load). Medians over pairs; ratio = median of per-pair live/emulation ratios; $p$: Wilcoxon signed-rank test.}
+\label{tab:calibration}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrr}
+\toprule
+Metric & Pairs & Live & Emulation & Live/emu. & $p$ \\
+\midrule
+Throughput (rec/s) & 214 & 29.82 & 45.72 & 0.81 & 9.8e-31 \\
+Inclusion P50 (s) & 214 & 4.69 & 1.56 & 3.04 & 1.6e-35 \\
+Finality P50 (s) & 214 & 16.99 & 9.54 & 1.78 & 1.2e-34 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\par\smallskip\footnotesize Live latency additionally contains the wide-area round trip, the public load balancer and forks.
+\end{table*}

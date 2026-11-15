@@ -1,0 +1,29 @@
+[
+ {
+  "coalition": 1,
+  "signers": 4,
+  "window_s": 60.0,
+  "blocks_sealed_alone": 1,
+  "stalled_after_s": 1.0,
+  "chain_resumed_after_heal": true,
+  "clique_limit": 3
+ },
+ {
+  "coalition": 2,
+  "signers": 4,
+  "window_s": 60.0,
+  "blocks_sealed_alone": 1,
+  "stalled_after_s": 1.0,
+  "chain_resumed_after_heal": true,
+  "clique_limit": 3
+ },
+ {
+  "coalition": 3,
+  "signers": 4,
+  "window_s": 60.0,
+  "blocks_sealed_alone": 60,
+  "stalled_after_s": null,
+  "chain_resumed_after_heal": true,
+  "clique_limit": 3
+ }
+]

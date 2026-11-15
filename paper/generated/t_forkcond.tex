@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Forks on PureChain client release 1.0.1 by condition: the live network while our trials loaded it and while we only watched it, and the released client run locally as four signers at 30 records/s with one-way delay $d$ between validators (Supplementary Table~S18). Replaced: share of canonical heights whose first-seen block was replaced; out of turn: share of the replaced blocks that a signer had sealed out of turn.}
+\label{tab:forkcond}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrr}
+\toprule
+Condition & Heights & Replaced (\%) & Max depth & Out of turn (\%) \\
+\midrule
+Live, during our trials & \M{LiveNewBlocksObserved} & \M{LiveNewReorgPct} & \M{LiveNewMaxReorg} & \M{OrphanNewOotPct} \\
+Live, no traffic of ours (E8) & \M{PsvHeights} & \M{PsvReplacedPct} & \M{PsvMaxDepth} & \M{PsvOrphanOotPct} \\
+Local, no delay (E9) & \M{NdZeroHeights} & \M{NdZeroReplacedPct} & \M{NdZeroMaxDepth} & \M{NdZeroOrphanOotPct} \\
+Local, $d=50$\,ms (E9) & \M{NdFiftyHeights} & \M{NdFiftyReplacedPct} & \M{NdFiftyMaxDepth} & \M{NdFiftyOrphanOotPct} \\
+Local, $d=100$\,ms (E9) & \M{NdHundredHeights} & \M{NdHundredReplacedPct} & \M{NdHundredMaxDepth} & \M{NdHundredOrphanOotPct} \\
+Local, $d=200$\,ms (E9) & \M{NdTwoHundredHeights} & \M{NdTwoHundredReplacedPct} & \M{NdTwoHundredMaxDepth} & \M{NdTwoHundredOrphanOotPct} \\
+Local, $d=400$\,ms (E9) & \M{NdFourHundredHeights} & \M{NdFourHundredReplacedPct} & \M{NdFourHundredMaxDepth} & \M{NdFourHundredOrphanOotPct} \\
+Local, $d=800$\,ms (E9) & \M{NdEightHundredHeights} & \M{NdEightHundredReplacedPct} & \M{NdEightHundredMaxDepth} & \M{NdEightHundredOrphanOotPct} \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table}

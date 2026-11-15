@@ -1,0 +1,34 @@
+\begin{tabular}{llrrrrl}
+\toprule
+scenario & backend & cases & prevented & detected & undetected & protected\_pct \\
+\midrule
+S1\_evidence\_only & besu & 800 & 0 & 800 & 0 & 100.0 \\
+S1\_evidence\_only & db\_postgres & 800 & 0 & 800 & 0 & 100.0 \\
+S1\_evidence\_only & ethpos & 200 & 0 & 200 & 0 & 100.0 \\
+S1\_evidence\_only & poa2\_local & 800 & 0 & 800 & 0 & 100.0 \\
+S1\_evidence\_only & purechain & 720 & 0 & 720 & 0 & 100.0 \\
+S1\_evidence\_only & purechain\_local & 100 & 0 & 100 & 0 & 100.0 \\
+S2\_commitment\_rewrite & besu & 800 & 800 & 0 & 0 & 100.0 \\
+S2\_commitment\_rewrite & db\_postgres & 800 & 0 & 0 & 800 & 0.0 \\
+S2\_commitment\_rewrite & ethpos & 200 & 200 & 0 & 0 & 100.0 \\
+S2\_commitment\_rewrite & poa2\_local & 800 & 800 & 0 & 0 & 100.0 \\
+S2\_commitment\_rewrite & purechain & 720 & 720 & 0 & 0 & 100.0 \\
+S2\_commitment\_rewrite & purechain\_local & 100 & 100 & 0 & 0 & 100.0 \\
+S3\_backdated\_record & besu & 800 & 0 & 800 & 0 & 100.0 \\
+S3\_backdated\_record & db\_postgres & 800 & 0 & 0 & 800 & 0.0 \\
+S3\_backdated\_record & ethpos & 200 & 0 & 200 & 0 & 100.0 \\
+S3\_backdated\_record & poa2\_local & 800 & 0 & 800 & 0 & 100.0 \\
+S3\_backdated\_record & purechain & 720 & 0 & 720 & 0 & 100.0 \\
+S3\_backdated\_record & purechain\_local & 100 & 0 & 100 & 0 & 100.0 \\
+S4a\_duplicate\_after\_record & besu & 100 & 100 & 0 & 0 & 100.0 \\
+S4a\_duplicate\_after\_record & db\_postgres & 100 & 100 & 0 & 0 & 100.0 \\
+S4a\_duplicate\_after\_record & poa2\_local & 100 & 100 & 0 & 0 & 100.0 \\
+S4a\_duplicate\_after\_record & purechain & 20 & 20 & 0 & 0 & 100.0 \\
+S4a\_duplicate\_after\_record & purechain\_local & 100 & 100 & 0 & 0 & 100.0 \\
+S4b\_duplicate\_after\_batch & besu & 100 & 100 & 0 & 0 & 100.0 \\
+S4b\_duplicate\_after\_batch & db\_postgres & 100 & 100 & 0 & 0 & 100.0 \\
+S4b\_duplicate\_after\_batch & poa2\_local & 100 & 100 & 0 & 0 & 100.0 \\
+S4b\_duplicate\_after\_batch & purechain & 20 & 20 & 0 & 0 & 100.0 \\
+S4b\_duplicate\_after\_batch & purechain\_local & 100 & 100 & 0 & 0 & 100.0 \\
+\bottomrule
+\end{tabular}

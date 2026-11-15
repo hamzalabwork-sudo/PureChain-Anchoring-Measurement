@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Reorganisation events on live PureChain (runs of consecutive replaced heights): events of depth at least $d$, against a threshold model (depth-1 events at their observed share, geometric tail $P(D\geq d\mid D\geq2)=q^{d-2}$), and the fitted share of heights at which a reorganisation of depth $\geq d$ starts. The September 2026 client kept parent hashes in few block logs.}
+\label{tab:reorg}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrr}
+\toprule
+Client & Depth $d$ & Events $\geq d$ & Fitted & Heights (\%) \\
+\midrule
+Release 1.0.1 & 1 & 663 & 663.0 & 4.6 \\
+ & 2 & 110 & 110.0 & 0.77 \\
+ & 3 & 42 & 40.9 & 0.28 \\
+ & 4 & 12 & 15.2 & 0.11 \\
+ & 5 & 6 & 5.6 & 0.039 \\
+ & 6 & 4 & 2.1 & 0.015 \\
+ & 7 & 1 & 0.8 & 0.0054 \\
+ & $\geq$8 & 0 & 0.29 & 0.002 \\
+Sept. 2026 client & 1 & 12 & 12.0 & 11 \\
+ & 2 & 5 & 5.0 & 4.6 \\
+ & 3 & 4 & 2.9 & 2.7 \\
+ & 4 & 2 & 1.7 & 1.6 \\
+ & 5 & 1 & 1.0 & 0.92 \\
+ & $\geq$6 & 0 & 0.58 & 0.54 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table}

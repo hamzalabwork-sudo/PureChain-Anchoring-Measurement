@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{OpenTimestamps baseline (B8): the same record commitments stamped through the four public OpenTimestamps aggregators in 9 rounds four hours apart and verified against Bitcoin block headers; latency from submission to the Bitcoin block that attests the stamp and to its sixth confirmation, in minutes, and the size of the upgraded proof (for a batch, without the registry's Merkle path to the record). Stamps of one round share a Bitcoin block.}
+\label{tab:ots}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrrr}
+\toprule
+Mode & Stamps & Attested P50 & Attested P95 & 6 conf. P50 & 6 conf. max & Proof (KB) \\
+\midrule
+One stamp per record & 100 & 24 & 56 & 78 & 173 & 2.7 \\
+One stamp per Merkle batch of 1,000 records & 21 & 23 & 56 & 75 & 173 & 2.8 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its measurements, please cite it as below."
+title: "PureChain anchoring measurements: forks, finality tails, capacity and insider attacks of audit-evidence anchoring on a production on-demand proof-of-authority ledger - code and data"
+authors:
+  - family-names: Ibrahim
+    given-names: Hamza
+repository-code: "https://github.com/hamzalabwork-sudo/PureChain-Anchoring-Measurement"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-15
+keywords:
+  - blockchain
+  - audit evidence
+  - proof of authority
+  - finality
+  - reorganisation
+  - PureChain
+  - measurement study
+  - reproducibility

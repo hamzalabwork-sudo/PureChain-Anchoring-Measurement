@@ -1,0 +1,41 @@
+# secrets and local environment
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# third-party datasets (download with scripts/get_data.py) and derived data
+data/
+
+# local blockchain networks: generated keys and chain state
+infra/besu_network/
+infra/ethpos_network/
+infra/poa2_network/
+infra/purechain_network/
+
+# third-party PureChain client binary and sealing script (download from the PureChain release)
+build/purechain/
+
+# per-record raw measurements are published as GitHub release assets (v1.0.0)
+results/raw/**/items.parquet
+results/*.out
+
+# superseded runs and local backups
+results/_archive_*/
+results/_excluded/
+results/_server_backup_*/
+
+# manuscript sources stay outside this repository; the report builder writes paper/generated and paper/figures
+paper/*.tex
+paper/*.bib
+paper/*.pdf
+paper/*.zip
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.out
+paper/*.txt

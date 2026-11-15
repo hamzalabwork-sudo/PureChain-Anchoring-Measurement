@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Finality when traffic stops, with the client-side tail and on the released PureChain client run locally (E4). Burst: 300 records at 50 records/s; lone: one record after 60\,s of idleness. Records final: share with 8 confirmations within the window; last record final: median time from the last arrival; tail: blocks after the last record's block (observed up to 20); tail txs: no-op transactions the client sent (21{,}000 gas each).}
+\label{tab:e14}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lllrrrrrr}
+\toprule
+Ledger & Sealing & Load & $n$ & Records final (\%) & Last record final (s) & Trials final & Tail (blocks) & Tail txs \\
+\midrule
+Clique, period 0 & on demand, no tail & burst & 3 & 85.3 & never & 0/3 & 0 & -- \\
+Clique, period 0 & on demand + client tail & burst & 3 & 100.0 & 1.26 & 3/3 & 8 & 8.0 \\
+Clique, period 0 & on demand, no tail & lone & 3 & 0.0 & never & 0/3 & 0 & -- \\
+Clique, period 0 & on demand + client tail & lone & 3 & 100.0 & 0.66 & 3/3 & 8 & 8.0 \\
+PureChain client (local) & Smart Auto-Mining v2 & burst & 3 & 100.0 & 9.59 & 3/3 & 17--18 & -- \\
+PureChain client (local) & Smart Auto-Mining v2 & lone & 3 & 100.0 & 8.11 & 3/3 & 19 & -- \\
+PureChain client (local) & SAM v2, 1 of 4 down & burst & 3 & 100.0 & 9.85 & 3/3 & 18 & -- \\
+PureChain (live) & SAM v2 + client tail & lone & 1 & 100.0 & 9.13 & 1/1 & 20 & 4.0 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table*}

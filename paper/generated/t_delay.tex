@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Inclusion delay $D$ (submission to first observation of the including block) under the controller (E1, E2), and the share of records whose arrival-to-inclusion latency exceeded the bound $w+2D$ of \Cref{prop:bound} ($w=1$\,s), with $D$ set to the observed P99 or maximum of the same ledger.}
+\label{tab:delay}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Ledger & Trials & Records & $D$ P50 & $D$ P95 & $D$ P99 & $D$ max & $w{+}2D_{99}$ & Beyond (\%) & $w{+}2D_{\max}$ & Beyond (\%) \\
+\midrule
+PureChain (live) & 10 & 100,000 & 1.85 & 2.50 & 2.63 & 3.83 & 6.27 & 0.00 & 8.66 & 0.00 \\
+Clique emulation & 15 & 120,700 & 1.91 & 2.03 & 2.06 & 2.41 & 5.11 & 0.00 & 5.83 & 0.00 \\
+Besu QBFT & 12 & 108,100 & 0.93 & 4.83 & 5.11 & 7.85 & 11.23 & 0.00 & 16.71 & 0.00 \\
+PureChain client (local) & 1 & 2,700 & 1.91 & 2.02 & 2.06 & 2.06 & 5.11 & 0.00 & 5.12 & 0.00 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table*}

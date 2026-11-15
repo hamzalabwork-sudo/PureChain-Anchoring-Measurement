@@ -1,0 +1,28 @@
+{
+ "client": "PureChain/PureChain-Idle-2/v1.13.15-purechain-1.0.1-e797061c-20261013/linux-amd64/go1.21.12",
+ "lo": 1807037,
+ "hi": 1915873,
+ "blocks": 108837,
+ "span_h": 639.1180555555555,
+ "tx": 533886,
+ "blocks_per_h": 170.29248204448405,
+ "empty_share": 0.5257954555895513,
+ "idle_share_of_time": 0.948587137222518,
+ "idle_periods": 486,
+ "idle_gap_median_s": 683.0,
+ "wake_tail_blocks_median": 18.0,
+ "empty_block_bytes_mean": 680.0013979659595,
+ "bytes_per_h": 817205.5263655428,
+ "fixed_1s_blocks_same_span": 2300825.0,
+ "blocks_avoided_share": 0.9526965327654211,
+ "empty_bytes_avoided_per_year_mb": 20444.116979220165,
+ "wake_periods": 485,
+ "wake_tail_counts": {
+  "16": 1,
+  "17": 108,
+  "18": 220,
+  "19": 149,
+  "20": 6,
+  "25": 1
+ }
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "run_id": "E14_purechain_local_momtsim_n300_L4_d10240_r50_s1_t0_outage",
+  "committed": 300,
+  "success_rate": 1.0,
+  "e2e_latency_s_median": 1.5957516392809339,
+  "e2e_latency_s_p95": 2.0191135464876426,
+  "final_e2e_latency_s_median": 7.527050588687416,
+  "max_reorg_depth": 0,
+  "reorged_blocks": 0
+ },
+ {
+  "run_id": "E14_purechain_local_momtsim_n300_L4_d10240_r50_s1_t1_outage",
+  "committed": 300,
+  "success_rate": 1.0,
+  "e2e_latency_s_median": 1.5379474287037738,
+  "e2e_latency_s_p95": 2.00771768563427,
+  "final_e2e_latency_s_median": 7.48167573887622,
+  "max_reorg_depth": 0,
+  "reorged_blocks": 0
+ },
+ {
+  "run_id": "E14_purechain_local_momtsim_n300_L4_d10240_r50_s1_t2_outage",
+  "committed": 300,
+  "success_rate": 1.0,
+  "e2e_latency_s_median": 1.543372294108849,
+  "e2e_latency_s_p95": 2.0093388481705916,
+  "final_e2e_latency_s_median": 7.485424353741109,
+  "max_reorg_depth": 0,
+  "reorged_blocks": 0
+ }
+]

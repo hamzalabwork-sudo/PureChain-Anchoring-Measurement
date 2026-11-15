@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Signer coalitions on the 4-signer Clique emulation: the coalition's signers keep sealing while the honest signers are cut off for 60\,s (Clique lets a signer seal one of any 3 consecutive blocks).}
+\label{tab:coalition}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lcrrc}
+\toprule
+Coalition & Reaches limit & Blocks sealed alone & Stalled after (s) & Resumed after heal \\
+\midrule
+1 of 4 & no & 1 & 1 & yes \\
+2 of 4 & no & 1 & 1 & yes \\
+3 of 4 & yes & 60 & never & yes \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table}

@@ -1,0 +1,1 @@
+{"cmd": "stamp", "records": 20, "batches": 5, "batch_size": 1000, "seed": 8, "gap": 2.0, "aggregators": ["https://a.pool.opentimestamps.org", "https://b.pool.opentimestamps.org", "https://a.pool.eternitywall.com", "https://ots.btc.catallaxy.com"]}

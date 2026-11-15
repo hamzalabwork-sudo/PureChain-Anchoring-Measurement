@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Campaign completion status (completed / planned trials) at the time this report was generated. ID: experiment number in the manuscript; code: identifier in the experiment plan.}
+\label{tab:status}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lllcccccc}
+\toprule
+ID & Code & Experiment & PureChain (live) & PureChain client (local) & Clique emulation & Besu QBFT & PostgreSQL & Ethereum PoS \\
+\midrule
+E1 & E11 & Burst-aware anchoring & 30/30 &  & 30/30 & 30/30 & 10/10 &  \\
+E2 & E13 & Policy baselines and utilisation sweep &  & 7/7 & 37/37 & 16/16 &  &  \\
+E3 & E12 & Finality after a burst & 10/10 &  & 20/20 & 5/5 &  &  \\
+E4 & E14 & Client-side tail, local PureChain client &  & 6/6 & 12/12 &  &  &  \\
+E6 & E6 & Tamper detection & 9/9 &  & 9/9 &  &  &  \\
+E6 & E6v2 & Tamper detection, widened &  &  & 3/3 &  &  &  \\
+E7 & E8 & Insider tampering & 7/7 &  & 7/7 & 7/7 & 7/7 & 2/2 \\
+E7 & E8v2 & Insider attacks, revised registry &  & 2/2 & 2/2 & 2/2 & 2/2 &  \\
+B1 & E1 & Controlled workloads W1--W5 & 33/33 &  & 58/58 & 58/58 & 58/58 & 7/7 \\
+B2 & E2 & Offered-load sweep & 15/15 &  & 35/35 & 35/35 & 35/35 & 4/4 \\
+B3 & E3 & Evidence-size sweep & 25/25 &  & 25/25 & 25/25 & 25/25 &  \\
+B4 & E4 & Evidence-complexity sweep & 20/20 &  & 20/20 & 20/20 & 20/20 &  \\
+B5 & E5 & Validator-count sweep &  &  & 30/30 & 24/30 &  &  \\
+B6 & E7 & Cross-dataset replication & 20/20 &  & 36/36 & 36/36 & 36/36 &  \\
+B7 & E9 & Batched Merkle commitments & 45/45 &  & 50/50 & 50/50 & 50/50 & 4/4 \\
+B7 & E9v2 & Write-once gas by batch size &  &  & 9/9 &  &  &  \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table*}

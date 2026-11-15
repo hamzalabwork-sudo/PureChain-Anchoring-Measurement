@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Finality when traffic stops (E3). Burst: 300 records at 50 records/s, then no traffic; lone: one record after the chain had been idle for 60\,s. Share of records that reached finality (8 confirmations; QBFT: inclusion), time from the last arrival until the last record was final (median over trials; ``never'': not final within 90\,s for bursts, 180\,s for lone records), trials in which every record became final, and the tail: blocks sealed after the last record's block within the window, observed up to 20.}
+\label{tab:e12}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lllrrrrr}
+\toprule
+Infrastructure & Sealing & Load & $n$ & Records final (\%) & Last record final (s) & Trials final & Tail (blocks) \\
+\midrule
+PureChain (live) & on demand + tail & burst & 5 & 100.0 & 10.19 & 5/5 & 17--20 \\
+Clique emulation & fixed 1\,s & burst & 5 & 100.0 & 9.27 & 5/5 & 20 \\
+Clique, period 0 & on demand, no tail & burst & 5 & 71.1 & never & 0/5 & 0 \\
+Besu QBFT & fixed 1\,s & burst & 5 & 100.0 & 3.63 & 5/5 & 20 \\
+PureChain (live) & on demand + tail & lone & 5 & 100.0 & 8.40 & 5/5 & 19--20 \\
+Clique emulation & fixed 1\,s & lone & 5 & 100.0 & 9.46 & 5/5 & 20 \\
+Clique, period 0 & on demand, no tail & lone & 5 & 0.0 & never & 0/5 & 0 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table*}
